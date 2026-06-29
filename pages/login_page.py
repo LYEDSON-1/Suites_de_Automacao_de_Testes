@@ -9,7 +9,7 @@ class LoginPage:
         self.welcome_heading = page.get_by_role("heading", name="Bem-vindo ao SimulaBank!")
 
     #def navigate(self):
-        #self.page.goto("https://leogcarvalho.github.io/simulabank/login.html")
+        #self.page.goto("https://leogcarvalho.github.io/simulabank/login.html")sds
 
     def login(self, user: str, password: str):
         self.username_input.fill(user)
